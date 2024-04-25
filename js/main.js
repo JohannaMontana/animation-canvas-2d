@@ -106,7 +106,7 @@ for (let i = 0; i < 10; i++) {
     let randomY = Math.random() * (window_height - 2 * randomRadius) + randomRadius;
     // let randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
 
-    let miCirculo = new Circle(randomX, randomY, randomRadius, 'blue', 'hola'+i, 5);
+    let miCirculo = new Circle(randomX, randomY, randomRadius, 'blue', +i, 5);
     arryCircle.push(miCirculo);
     arryCircle[i].draw(ctx);
 }
