@@ -100,6 +100,7 @@ let arryCircle = [];
 // Creamos los circulos aleatorios, que se guardaran en el arreglo
 
 for (let i = 0; i < 10; i++) {
+    
     let randomRadius = Math.floor(Math.random() * 100 + 10); 
     let randomX = Math.random() * (window_width - 2 * randomRadius) + randomRadius;
     let randomY = Math.random() * (window_height - 2 * randomRadius) + randomRadius;
